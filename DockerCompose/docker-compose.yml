@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - "80:80"
+    volumes:
+      - /home/murphycooper/Docker/Site1://usr/share/nginx/html
+     
